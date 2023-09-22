@@ -19,4 +19,5 @@ mean_by_equipment = sbd.groupby('Equipment')[columns_to_mean].mean()
 
 sns.scatterplot(sbd,y='TotalKg',x='Age',hue='Equipment')
 plt.show()
-print(mean_by_equipment)
+
+
